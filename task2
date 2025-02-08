@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<head>Onekeyup</head>
+<body>
+    <input id="in1" type="text" onkeyup="changeContent()">
+    <button onclick="changeContent()">but</button>
+    <h1 id="para"></h1>
+</body>
+<script>
+    var in1=document.getElementById("in1")
+    var para=document.getElementById("para")
+    function changeContent(){
+        para.textContent=in1.value
+    }
+</script>
