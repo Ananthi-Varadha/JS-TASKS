@@ -1,0 +1,7 @@
+<button id="but" onclick="Change()">ChangeColour</button>
+<script>
+    var but=document.getElementById("but")
+    function Change(){
+        but.style.backgroundColor="red"
+    }
+</script>
